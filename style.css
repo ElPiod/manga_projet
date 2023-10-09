@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Navbar */
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+    color: white;
+}
+.otaku{
+    color: rgb(214, 142, 8);
+    position: relative;
+    top: 6px;
+    background: transparent;
+    animation: otaku 2s infinite;
+}
+.btn1{
+    background: rgb(214, 142, 8);
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.btn1:hover{
+    opacity: 0.8;
+}
+
+@keyframes otaku {
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+/* footer */
+.lien p a{
+    text-decoration: none;
+    color: orange;
+}
+
+.lien p a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
