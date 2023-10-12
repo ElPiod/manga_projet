@@ -4,8 +4,25 @@
 
 /* phone */
 @media screen and (max-width: 567px) {
+    .logos{
+        position: relative;
+        left: -20px;
+    }
     .konoha-logo{
         position: relative;
         left: 0px;
+    }
+    .naruto-text{
+        position: relative;
+        top: -40px;
+    }
+    .logos .col-2 span{
+        display: none;
+    }
+    .body-slider{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

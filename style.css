@@ -109,6 +109,8 @@ a{
     background-image: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.5)), url(img/konoha.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .kiri-text{
@@ -120,4 +122,58 @@ a{
 .konoha-logo{
     position: relative;
     left: 25px;
+}
+.my-circle{
+    border: 3px solid white;
+    width: 200px;height: 200px;
+    border-radius: 50%;
+}
+.senju, .uzu, .uchi, .akat,
+.saru, .yama, .inu, .abu,
+.aki{
+    background-image: url(img/senju.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.plus{
+    display: none;
+}
+.senju:hover .plus, .uzu:hover .plus,
+.uchi:hover .plus, .akat:hover .plus,
+.saru:hover .plus, .yama:hover .plus,
+.inu:hover .plus, .abu:hover .plus,
+.aki:hover .plus{
+    width: 190px;height: 190px;
+    border-radius: 50%;
+    background: rgba(235, 148, 8, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16.5px; 
+}
+
+.uzu{
+    background-image: url(img/uzumaki.jpg);
+}
+.uchi{
+    background-image: url(img/uchiwa.jpg);
+}
+.akat{
+    background-image: url(img/akatsuki.jpg);
+}
+.saru{
+    background-image: url(img/sarutobi.jpg);
+}
+.yama{
+    background-image: url(img/nara.jpg);
+}
+.inu{
+    background-image: url(img/inuzuka.jpg);
+}
+.abu{
+    background-image: url(img/aburame.jpg);
+}
+.aki{
+    background-image: url(img/aki.jpg);
 }
