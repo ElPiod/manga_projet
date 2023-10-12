@@ -117,3 +117,7 @@ a{
 .first:hover~.kiri-text{
     opacity: 1;
 }
+.konoha-logo{
+    position: relative;
+    left: 25px;
+}

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respon.css">
 
 
     <title>Otaku~ Z</title>
@@ -60,17 +61,20 @@
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl">
                         <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-3 float-end" id="staticBackdropLabel">Bienvenue dans le Monde des Shinobie</h1><i class="fa fa-user-ninja fs-3 ms-2"></i>
-                                <div class="ms-auto">
+                            <div class="modal-header d-flex flex-column">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="text-xm-center">
                                     <img src="img/pain-removebg-preview.png" class="" alt="">
                                 </div>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="text-modal">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Bienvenue dans le Monde des Shinobie <i class="fa fa-user-ninja fs-3 ms-2"></i>
+                                    </h5> 
+                                </div>
                             </div>
                             <div class="modal-body naruto">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-2 text-center kiri">
+                                        <div class="col-2 offset-1 text-center kiri">
                                                 <img src="img/kiri-removebg-preview.png" class="w-25 first" alt="">
                                                 <span class="text-white my-5 kiri-text fw-bold">KIRI
                                                     <i class="fa-solid fa-droplet" style="color: #5d8fe5;"></i>
@@ -80,7 +84,7 @@
                                                 <img src="img/taki-removebg-preview.png" class="w-25 first" alt="">
                                                 <span class="text-white my-5 kiri-text fw-bold">TAKI</span>
                                         </div>
-                                        <div class="col-4 text-center">
+                                        <div class="col-3 text-center konoha-logo">
                                                 <img src="img/bandeau-removebg-preview.png" class="w-25 first" alt="">
                                                 <span class="text-white my-5 kiri-text fw-bold">KONOHA
                                                     <i class="fa-solid fa-fire-flame-curved" style="color: #e56815;"></i>
@@ -97,6 +101,8 @@
                                                 </span>
                                         </div>
                                     </div>
+                                        <p class="text-white text-center">Naruto est un jeune ninja du village de Konoha. Hôte du démon renard à neuf queues, une créature qui a attaqué le village par le passé, il est rejeté par les autres villageois. Son ambition est de devenir Hokage, le chef du village, afin de gagner le respect des habitants.</p>
+
                                 </div>
                             </div>
                             <div class="modal-footer">
