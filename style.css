@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+.bg-acceuil{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/img.webp);
     background-repeat: no-repeat;
     background-position: center;
@@ -59,4 +59,61 @@ a{
 .lien p a:hover{
     text-decoration: underline;
     color: whitesmoke;
+}
+
+/* A propos */
+.bg-propos{
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.vegeto{
+    animation: vetegoImg 5s infinite;
+}
+
+@keyframes vetegoImg {
+    0%{
+        transform: translateY(60px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(60px);
+    }
+}
+
+/* Mangas */
+.bg-mangas{
+    background-image: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.5)), url(img/mangas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-scale:hover{
+    outline: none;
+    animation: scale 1s ease-in;
+}
+
+@keyframes scale {
+    50%{
+        transform: scale(0.9);
+    }
+}
+
+/* Naruto */
+.naruto{
+    background-image: linear-gradient(rgba(0,0,0,0.3) ,rgba(0,0,0,0.5)), url(img/konoha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kiri-text{
+    opacity: 0;
+}
+.first:hover~.kiri-text{
+    opacity: 1;
 }

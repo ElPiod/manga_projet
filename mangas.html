@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Otaku~ Z</title>
+</head>
+<body class="bg-mangas">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand d-flex" href="index.html">
+            <p class="otaku fw-bold">
+                OTAKU
+                <p class="p fw-bold text-white ms-2"> ~ Fans</p>
+            </p>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Acceuil</a>
+              <a class="nav-link" href="a-props.html">A-propos</a>
+              <a class="nav-link" aria-disabled="true" href="mangas.html">Mangas</a>
+              <a class="nav-link" href="#">Acteurs</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <div class="row my-5 mangas">
+            <!-- Naruto -->
+            <div class="col-md-3 d-flex justify-content-center my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/naruto_card.jpg" class="card-img-top img-fluid card-scale" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Uzumaki Naruto</h5>
+                      <p class="card-text text-center">L'un des meilleurs mangas du <br> Monde.
+                                            Publie en 2003 par Kishimato avec beaucoup theme 
+                                        comme la <strong><em>Solitude</em></strong> qui l'un des principale</p>
+                      <a href="#" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: rgb(255, 94, 45); border: none;">Voir plus</a>
+                    </div>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3 float-end" id="staticBackdropLabel">Bienvenue dans le Monde des Shinobie</h1><i class="fa fa-user-ninja fs-3 ms-2"></i>
+                                <div class="ms-auto">
+                                    <img src="img/pain-removebg-preview.png" class="" alt="">
+                                </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body naruto">
+                                <div class="bandeau d-flex text-center">
+                                    <div class="col-2 kiri">
+                                        <img src="img/kiri-removebg-preview.png" class="w-25 first" alt="">
+                                        <span class="text-white my-5 kiri-text fw-bold">KIRI
+                                            <i class="fa-solid fa-droplet" style="color: #5d8fe5;"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/taki-removebg-preview.png" class="w-25 first" alt="">
+                                        <span class="text-white my-5 kiri-text fw-bold">TAKI</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="img/bandeau-removebg-preview.png" class="w-25 first" alt="">
+                                        <span class="text-white my-5 kiri-text fw-bold">KONOHA
+                                            <i class="fa-solid fa-fire-flame-curved" style="color: #e56815;"></i>
+                                        </span>
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/kumo-removebg-preview.png" class="w-25 first" alt="">
+                                        <span class="text-white my-5 kiri-text fw-bold">IWA</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <img src="img/kumoo-removebg-preview.png" class="w-25 first" alt="">
+                                        <span class="text-white my-5 kiri-text fw-bold">KUMO
+                                            <i class="fa-sharp fa-solid fa-bolt-lightning" style="color: #5373a8;"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Luffy -->
+            <div class="col-md-3 d-flex justify-content-center my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/luffy.jpg" class="card-img-top img-fluid card-scale" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Monkey-D Luffy</h5>
+                      <p class="card-text text-center">L'un des meilleurs mangas du <br> Monde.
+                                            Publie en 2003 par Kishimato avec beaucoup theme 
+                                        comme la <strong><em>Solitude</em></strong> qui l'un des principale</p>
+                      <a href="#" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" style="background: rgb(218, 147, 41); border: none;">Voir plus</a>
+                    </div>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-3 float-end" id="staticBackdropLabel">Bienvenue dans l'univers des Pirates<i class="fa-solid fa-skull-crossbones ms-1" style="color: #f5a10f;"></i></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Gojo -->
+            <div class="col-md-3 d-flex justify-content-center my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/gojo.jpg" class="card-img-top img-fluid card-scale" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Gojo Satoru</h5>
+                      <p class="card-text text-center"><strong>Jujutsu Kaisen</strong> est un shōnen manga de <em>Gege Akutami</em>,
+                        Yuji est le principal protagoniste qui le receptacle d'un grand fleau du nom de Ryonen Sukuna. 
+                      </p>
+
+                      <a href="#" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: rgb(208, 201, 199); border: none;">Voir plus</a>
+                    </div>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-3 float-end" id="staticBackdropLabel">Bienvenue dans l'univers Naruto</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tanjiro -->
+            <div class="col-md-3 d-flex justify-content-center my-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/tanjiro.jpg" class="card-img-top img-fluid card-scale" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Kamado Tanjiro</h5>
+                      <p class="card-text text-center">Bienvenue dans le monde des Demon. Connue sous le nom de Demon-Slayer 
+                        ce mangas est tout a fait extraordinaire avec des combats explosives.
+                      </p>
+
+                      <a href="#" class="btn btn-primary d-block" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="background: rgb(215, 24, 24); border: none;">Voir plus</a>
+                    </div>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-3 float-end" id="staticBackdropLabel">Bienvenue dans l'univers Naruto</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+   
+    
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
