@@ -113,6 +113,10 @@ a{
     background-attachment: fixed;
 }
 
+.plus p{
+    font-size: 8px;
+}
+
 .kiri-text{
     opacity: 0;
 }
@@ -164,16 +168,22 @@ a{
 }
 .saru{
     background-image: url(img/sarutobi.jpg);
+    background-position: 0px -7px;
 }
 .yama{
     background-image: url(img/nara.jpg);
 }
 .inu{
     background-image: url(img/inuzuka.jpg);
+    background-position: 0px -7px;
 }
 .abu{
     background-image: url(img/aburame.jpg);
 }
 .aki{
     background-image: url(img/aki.jpg);
+}
+
+#infos_plus{
+    display: none;
 }
